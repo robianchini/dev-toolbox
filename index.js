@@ -1,5 +1,6 @@
 const { orderArray, orderNumericArray, orderObjectArray } = require('./array');
 const { formatBirthdate, isBirthDateValid } = require('./birthdate');
+const { getCardFlagName, formatCreditCard } = require('./creditcard');
 const { formatCurrency } = require('./currency');
 const {
   formatCPF,
@@ -24,6 +25,8 @@ module.exports = {
   orderObjectArray,
   formatBirthdate,
   isBirthDateValid,
+  getCardFlagName,
+  formatCreditCard,
   formatCurrency,
   formatCPF,
   isCPFValid,
@@ -41,5 +44,3 @@ module.exports = {
   formatZipCode,
   isZipCodeValid,
 };
-
-console.log(greeting);

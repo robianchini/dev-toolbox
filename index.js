@@ -1,26 +1,22 @@
-const {
-  orderArray,
-  orderNumericArray,
-  orderObjectArray,
-} = require('./src/array');
-const { formatBirthdate, isBirthDateValid } = require('./src/birthdate');
-const { formatCurrency } = require('./src/currency');
+const { orderArray, orderNumericArray, orderObjectArray } = require('./array');
+const { formatBirthdate, isBirthDateValid } = require('./birthdate');
+const { formatCurrency } = require('./currency');
 const {
   formatCPF,
   isCPFValid,
   formatCNPJ,
   isCNPJValid,
-} = require('./src/document');
-const { greeting } = require('./src/greeting');
+} = require('./document');
+const { greeting } = require('./greeting');
 const {
   formatBrNumber,
   formatEnNumber,
   random,
   randomBetween,
-} = require('./src/number');
-const { formatPhone } = require('./src/phone');
-const { formatPlate, isPlateValid } = require('./src/vehicle');
-const { formatZipCode, isZipCodeValid } = require('./src/zipcode');
+} = require('./number');
+const { formatPhone } = require('./phone');
+const { formatPlate, isPlateValid } = require('./vehicle');
+const { formatZipCode, isZipCodeValid } = require('./zipcode');
 
 module.exports = {
   orderArray,

@@ -7,7 +7,7 @@ const {
   formatCNPJ,
   isCNPJValid,
 } = require('./document');
-const { greeting } = require('./greeting');
+const { greeting, getGreeting } = require('./greeting');
 const {
   formatBrNumber,
   formatEnNumber,
@@ -30,6 +30,7 @@ module.exports = {
   formatCNPJ,
   isCNPJValid,
   greeting,
+  getGreeting,
   formatBrNumber,
   formatEnNumber,
   random,
@@ -40,3 +41,5 @@ module.exports = {
   formatZipCode,
   isZipCodeValid,
 };
+
+console.log(greeting);

@@ -1,4 +1,4 @@
-const greeting = (datetime) => {
+const getGreeting = (datetime) => {
   const day = datetime ? new Date(datetime) : new Date();
   const now = day.getHours();
 
@@ -30,4 +30,6 @@ const greeting = (datetime) => {
   return periods[greeting].message;
 };
 
-module.exports = { greeting };
+const greeting = getGreeting();
+
+module.exports = { getGreeting, greeting };

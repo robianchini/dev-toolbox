@@ -8,6 +8,26 @@ const {
   formatCNPJ,
   isCNPJValid,
 } = require('./document');
+const {
+  mToKm,
+  mToCm,
+  mToMm,
+  mToIn,
+  mToFt,
+  mToMi,
+  inToM,
+  inToKm,
+  inToCm,
+  inToMm,
+  inToFt,
+  inToMi,
+  ftToM,
+  ftToKm,
+  ftToCm,
+  ftToMm,
+  ftToFt,
+  ftToMi,
+} = require('./length');
 const { greeting, getGreeting } = require('./greeting');
 const {
   formatBrNumber,
@@ -16,6 +36,11 @@ const {
   randomBetween,
 } = require('./number');
 const { formatPhone } = require('./phone');
+const {
+  formatSeconds,
+  daysBetweenDates,
+  monthsBetweenDates,
+} = require('./time');
 const { formatPlate, isPlateValid } = require('./vehicle');
 const { formatZipCode, isZipCodeValid } = require('./zipcode');
 
@@ -32,6 +57,24 @@ module.exports = {
   isCPFValid,
   formatCNPJ,
   isCNPJValid,
+  mToKm,
+  mToCm,
+  mToMm,
+  mToIn,
+  mToFt,
+  mToMi,
+  inToM,
+  inToKm,
+  inToCm,
+  inToMm,
+  inToFt,
+  inToMi,
+  ftToM,
+  ftToKm,
+  ftToCm,
+  ftToMm,
+  ftToFt,
+  ftToMi,
   greeting,
   getGreeting,
   formatBrNumber,
@@ -39,6 +82,9 @@ module.exports = {
   random,
   randomBetween,
   formatPhone,
+  formatSeconds,
+  daysBetweenDates,
+  monthsBetweenDates,
   formatPlate,
   isPlateValid,
   formatZipCode,

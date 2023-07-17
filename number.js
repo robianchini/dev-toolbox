@@ -1,9 +1,11 @@
 const formatBrNumber = (value) => {
-  return value.toLocaleString('pt-BR');
+  const number = value || 0;
+  return number.toLocaleString('pt-BR');
 };
 
 const formatEnNumber = (value) => {
-  return value.toLocaleString('en-US');
+  const number = value || 0;
+  return number.toLocaleString('en-US');
 };
 
 const random = () => {

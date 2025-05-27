@@ -53,7 +53,7 @@ export function random(): number;
 export function randomBetween(minValue: number, maxValue: number): number;
 
 // phone.js
-export function formatPhone(value: string | number): string | undefined;
+export function formatPhone(value: string | number, useParentheses?: boolean): string | undefined;
 
 // time.js
 export function formatSeconds(value: number): string;

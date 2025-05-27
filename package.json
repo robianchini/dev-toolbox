@@ -1,8 +1,9 @@
 {
   "name": "dev-js-toolbox",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

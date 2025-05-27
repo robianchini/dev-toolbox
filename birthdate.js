@@ -1,6 +1,8 @@
 const isBirthDateValid = (birthDate) => {
   if (!birthDate) return;
-  const [day, month, year] = birthDate?.split('/');
+  const day = birthDate.split('/')[0];
+  const month = birthDate.split('/')[1];
+  const year = birthDate.split('/')[2];
 
   const adultYear = moment().subtract(18, 'years').format('YYYY');
 
